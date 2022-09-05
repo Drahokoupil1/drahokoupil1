@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <form action="" method="POST" name="my_fomrs">
+        <fieldset>
+            <legend>Importnat Information</legend>
+            <label for="username">Username:</label><br>
+            <input type="text" name="username" id="username">
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password"><br>
+            <input type="radio" name="gender" value="Male" id="male"><label for="male">Male</label><br>
+            <input type="radio" name="gender" value="Female" id="female"><label for="female">Female</label><br>
+            <input type="checkbox" name="food" value="Grapes" id="grapes"><label for="grapes">Grapes</label><br>
+            <input type="checkbox" name="food" value="Apples" id="apples"><label for="apples">Apples</label><br>
+            <input type="checkbox" name="food" value="Bananas" id="bananas"><label for="bananas">Bananas</label><br>
+        </fieldset>
+        <fieldset>
+            <legend align="center">Optional Items</legend> <!-- atribut aligin="center"-->
+            <label for="essay"> We want to know more about you<br>Write yourself</label><br>
+            <textarea name="essay" cols="30" rows="10"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend>Origin</legend>
+            <label for="origin"> We want to know more about you<br>Write yourself</label><br>
+            <select name="" id="">
+                <optgroup label="Americans">
+                    <option>North America</option>
+                    <option>South America</option>
+                </optgroup>
+                <optgroup label="Euroasia"></optgroup>
+                <option> Europe</option>
+                <option> Asia</option>
+                <optgroup label="Other">
+                    <option>Antartica</option>
+                    <option>Africa</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit">
+        <!--Submit button-->
+
+    </form>
+</body>
+
+</html>
